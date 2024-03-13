@@ -12,3 +12,6 @@ c/**/*
 !c/**/Makefile
 !c/**/Makefile.*
 !c/**/.vscode
+
+## java
+**/*.class
