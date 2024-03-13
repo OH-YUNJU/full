@@ -11,3 +11,4 @@ c/**/*
 !c/**/lib/*.h
 !c/**/Makefile
 !c/**/Makefile.*
+!c/**/.vscode
