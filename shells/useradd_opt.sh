@@ -33,7 +33,7 @@ do
 done
 #
 count=1
-for parma in "$@"
+for param in "$@"
 do
 	echo "Parameter #$count : $param"
 	count=$[ $count +1 ]
