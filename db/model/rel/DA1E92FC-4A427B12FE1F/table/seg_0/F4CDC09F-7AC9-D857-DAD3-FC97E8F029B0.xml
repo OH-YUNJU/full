@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4CDC09F-7AC9-D857-DAD3-FC97E8F029B0" schemaObject="9E13E3BD-10D0-FE8B-ACF0-8A46880768B9" name="DELETEDMEMBERTBL">
+<sourceConnName>CentOS_SHOP</sourceConnName>
+<sourceObjSchema>SHOP</sourceObjSchema>
+<sourceObjName>DELETEDMEMBERTBL</sourceObjName>
+<createdBy>ohyunju</createdBy>
+<createdTime>2024-03-21 02:19:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>F368EC5A-15FE-C250-C911-3B10DBE57397</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MEMBERID" id="C4FAB192-907D-47C4-D184-2836F207C9C4">
+<sourceConnName>CentOS_SHOP</sourceConnName>
+<sourceObjSchema>DELETEDMEMBERTBL</sourceObjSchema>
+<sourceObjName>MEMBERID</sourceObjName>
+<createdBy>ohyunju</createdBy>
+<createdTime>2024-03-21 02:19:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>E0AA071F-360E-91BF-AC90-27A71C2A76D8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEMBERNAME" id="02E9D122-C9BE-C536-DD98-B0D40256FE19">
+<sourceConnName>CentOS_SHOP</sourceConnName>
+<sourceObjSchema>DELETEDMEMBERTBL</sourceObjSchema>
+<sourceObjName>MEMBERNAME</sourceObjName>
+<createdBy>ohyunju</createdBy>
+<createdTime>2024-03-21 02:19:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>55960D86-7022-70B3-92ED-5458D1E9BC15</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MEMBERADDRESS" id="3BB4AFCD-7858-1A82-A1AD-9D417E9F7457">
+<sourceConnName>CentOS_SHOP</sourceConnName>
+<sourceObjSchema>DELETEDMEMBERTBL</sourceObjSchema>
+<sourceObjName>MEMBERADDRESS</sourceObjName>
+<createdBy>ohyunju</createdBy>
+<createdTime>2024-03-21 02:19:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>898FBFFB-9CCB-273C-6C3F-C7AE5330F0E5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DELETEDDATE" id="E8042D2C-03DF-4B76-40A3-B7BD9901655F">
+<sourceConnName>CentOS_SHOP</sourceConnName>
+<sourceObjSchema>DELETEDMEMBERTBL</sourceObjSchema>
+<sourceObjName>DELETEDDATE</sourceObjName>
+<createdBy>ohyunju</createdBy>
+<createdTime>2024-03-21 02:19:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>E863AAD2-1309-3349-2D83-9F6CA16A3405</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

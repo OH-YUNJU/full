@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StoredProcedureOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StoredProcedureOraclev10g" name="MYPROC" directorySegmentName="seg_0" id="32E60206-971A-66D7-CA83-98B944103FEF">
+<sourceConnName>CentOS_SHOP</sourceConnName>
+<sourceObjSchema>SHOP</sourceObjSchema>
+<sourceObjName>MYPROC</sourceObjName>
+<createdBy>ohyunju</createdBy>
+<createdTime>2024-03-21 02:18:48 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<owner><![CDATA[ED58621E-C41A-30A6-9EDF-2C0C15154E90]]></owner>
+<source>CREATE OR REPLACE PROCEDURE SHOP.MYPROC
+as 
+    var1 int;
+    var2 int;
+begin
+    select count(*) into var1 from membertbl;
+    select count(*) into var2 from producttbl;
+    dbms_output.put_line(var1+var2);
+end;</source>
+</StoredProcedureOraclev10g>

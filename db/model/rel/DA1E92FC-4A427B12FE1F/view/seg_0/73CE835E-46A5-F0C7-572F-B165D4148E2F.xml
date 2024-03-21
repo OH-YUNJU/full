@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="73CE835E-46A5-F0C7-572F-B165D4148E2F" schemaObject="9E13E3BD-10D0-FE8B-ACF0-8A46880768B9" name="MEMBERTBL_VIEW">
+<sourceConnName>CentOS_SHOP</sourceConnName>
+<sourceObjSchema>SHOP</sourceObjSchema>
+<sourceObjName>MEMBERTBL_VIEW</sourceObjName>
+<createdBy>ohyunju</createdBy>
+<createdTime>2024-03-21 02:19:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>CFA3BDFA-3684-9CCD-C589-86276EADD9C0</importedID>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[CREATE OR REPLACE VIEW MEMBERTBL_VIEW
+AS 
+select membername, memberaddress from shop.membertbl]]></userDefinedSQL>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="MEMBERNAME" id="DDEFCFB4-7700-A110-F428-3921297A4BBC">
+<createdBy>ohyunju</createdBy>
+<createdTime>2024-03-21 02:19:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>MEMBERNAME</alias>
+<dataType>NCHAR (5)</dataType>
+<headerAlias>MEMBERNAME</headerAlias>
+<reference>false</reference>
+<referencedColumn>EBB6641E-D98E-63D8-E4D1-198AA440B847</referencedColumn>
+<viewID>73CE835E-46A5-F0C7-572F-B165D4148E2F</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="MEMBERADDRESS" id="E1760BFA-5455-9E81-0EE7-EF345ECF0217">
+<createdBy>ohyunju</createdBy>
+<createdTime>2024-03-21 02:19:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>MEMBERADDRESS</alias>
+<dataType>NVARCHAR2 (20)</dataType>
+<headerAlias>MEMBERADDRESS</headerAlias>
+<reference>false</reference>
+<referencedColumn>8D18B01F-9622-5723-1272-F8820904E65E</referencedColumn>
+<viewID>73CE835E-46A5-F0C7-572F-B165D4148E2F</viewID>
+</viewElement>
+</viewElements>
+</TableView>

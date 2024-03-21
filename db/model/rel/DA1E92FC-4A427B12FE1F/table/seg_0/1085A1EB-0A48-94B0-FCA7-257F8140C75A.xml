@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1085A1EB-0A48-94B0-FCA7-257F8140C75A" schemaObject="9E13E3BD-10D0-FE8B-ACF0-8A46880768B9" name="INDEXTBL">
+<sourceConnName>CentOS_SHOP</sourceConnName>
+<sourceObjSchema>SHOP</sourceObjSchema>
+<sourceObjName>INDEXTBL</sourceObjName>
+<createdBy>ohyunju</createdBy>
+<createdTime>2024-03-21 02:19:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>6CCCFDE0-988B-CCCA-7400-D6F9E057291C</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FIRST_NAME" id="C4880DD0-5C5B-AC56-5780-50F7DE6F1D88">
+<sourceConnName>CentOS_SHOP</sourceConnName>
+<sourceObjSchema>INDEXTBL</sourceObjSchema>
+<sourceObjName>FIRST_NAME</sourceObjName>
+<createdBy>ohyunju</createdBy>
+<createdTime>2024-03-21 02:19:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>B566163B-EA39-946C-B7CB-C106F06CE5AC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_NAME" id="7D7F0E96-201A-D21E-EA6D-1C7B68DCCABB">
+<sourceConnName>CentOS_SHOP</sourceConnName>
+<sourceObjSchema>INDEXTBL</sourceObjSchema>
+<sourceObjName>LAST_NAME</sourceObjName>
+<createdBy>ohyunju</createdBy>
+<createdTime>2024-03-21 02:19:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>9B15D30D-69A5-6E62-520E-F03CD1BD8A38</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HIRE_DATE" id="6F0417AB-CEB0-C63B-C573-2F5EA5E193BF">
+<sourceConnName>CentOS_SHOP</sourceConnName>
+<sourceObjSchema>INDEXTBL</sourceObjSchema>
+<sourceObjName>HIRE_DATE</sourceObjName>
+<createdBy>ohyunju</createdBy>
+<createdTime>2024-03-21 02:19:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>444CD75F-1B2B-31F0-5E9A-3D3F711D697E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7883F43F-0DDD-1DC4-D577-9B815C9841F0" schemaObject="DAA4B8FF-9E40-EF6E-066F-0470E1C82033" name="IDX_INDEX_FIRSTNAME">
+<sourceConnName>CentOS_SHOP</sourceConnName>
+<sourceObjSchema>SHOP</sourceObjSchema>
+<sourceObjName>IDX_INDEX_FIRSTNAME</sourceObjName>
+<createdBy>ohyunju</createdBy>
+<createdTime>2024-03-21 02:19:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>54A2F86C-17EF-89A1-F822-A38D9AA2186D</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4880DD0-5C5B-AC56-5780-50F7DE6F1D88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

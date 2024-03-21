@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="DELETEDMEMBERTBL" directorySegmentName="seg_0" id="F4CDC09F-7AC9-D857-DAD3-FC97E8F029B0">
+<createdBy>ohyunju</createdBy>
+<createdTime>2024-03-21 02:19:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<schemaObject>9E13E3BD-10D0-FE8B-ACF0-8A46880768B9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A39BD69C-ECE1-9BE0-2713-0D289D2AB60F</segment>
+<tableSpace>8CA24AD1-46D1-110B-A6B7-1E87FD6CF81B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MEMBERNAME" id="02E9D122-C9BE-C536-DD98-B0D40256FE19">
+<createdBy>ohyunju</createdBy>
+<createdTime>2024-03-21 02:19:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MEMBERADDRESS" id="3BB4AFCD-7858-1A82-A1AD-9D417E9F7457">
+<createdBy>ohyunju</createdBy>
+<createdTime>2024-03-21 02:19:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MEMBERID" id="C4FAB192-907D-47C4-D184-2836F207C9C4">
+<createdBy>ohyunju</createdBy>
+<createdTime>2024-03-21 02:19:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DELETEDDATE" id="E8042D2C-03DF-4B76-40A3-B7BD9901655F">
+<createdBy>ohyunju</createdBy>
+<createdTime>2024-03-21 02:19:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev11g>

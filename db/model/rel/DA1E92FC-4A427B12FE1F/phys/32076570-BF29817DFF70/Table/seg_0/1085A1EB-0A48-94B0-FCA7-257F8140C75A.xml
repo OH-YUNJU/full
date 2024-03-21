@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="INDEXTBL" directorySegmentName="seg_0" id="1085A1EB-0A48-94B0-FCA7-257F8140C75A">
+<createdBy>ohyunju</createdBy>
+<createdTime>2024-03-21 02:19:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<schemaObject>9E13E3BD-10D0-FE8B-ACF0-8A46880768B9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>A39BD69C-ECE1-9BE0-2713-0D289D2AB60F</segment>
+<tableSpace>8CA24AD1-46D1-110B-A6B7-1E87FD6CF81B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="HIRE_DATE" id="6F0417AB-CEB0-C63B-C573-2F5EA5E193BF">
+<createdBy>ohyunju</createdBy>
+<createdTime>2024-03-21 02:19:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_NAME" id="7D7F0E96-201A-D21E-EA6D-1C7B68DCCABB">
+<createdBy>ohyunju</createdBy>
+<createdTime>2024-03-21 02:19:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FIRST_NAME" id="C4880DD0-5C5B-AC56-5780-50F7DE6F1D88">
+<createdBy>ohyunju</createdBy>
+<createdTime>2024-03-21 02:19:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="IDX_INDEX_FIRSTNAME" id="7883F43F-0DDD-1DC4-D577-9B815C9841F0">
+<createdBy>ohyunju</createdBy>
+<createdTime>2024-03-21 02:19:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<schemaObject>DAA4B8FF-9E40-EF6E-066F-0470E1C82033</schemaObject>
+<segment>8059796C-A672-35B3-2F94-33E6BB6D7CD0</segment>
+<tableSpace>B68019BA-6089-4B8E-1AA1-162B11609527</tableSpace>
+</IndexProxy>
+</indexProxies>
+</TableProxyOraclev11g>

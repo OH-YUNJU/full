@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="78966512-C491-3598-C116-598A81362A5A" schemaObject="9E13E3BD-10D0-FE8B-ACF0-8A46880768B9" name="PRODUCTTBL">
+<sourceConnName>CentOS_SHOP</sourceConnName>
+<sourceObjSchema>SHOP</sourceObjSchema>
+<sourceObjName>PRODUCTTBL</sourceObjName>
+<createdBy>ohyunju</createdBy>
+<createdTime>2024-03-21 02:19:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>46607C93-AF02-A993-73F2-3C8A678789B3</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCTNAME" id="C4E36472-5B30-255B-A3BA-C6EA0D5168A2">
+<sourceConnName>CentOS_SHOP</sourceConnName>
+<sourceObjSchema>PRODUCTTBL</sourceObjSchema>
+<sourceObjName>PRODUCTNAME</sourceObjName>
+<createdBy>ohyunju</createdBy>
+<createdTime>2024-03-21 02:19:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>838A3D4A-9D23-426D-7624-091A33615F2F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COST" id="72251916-3D63-A8CF-C8F2-40CE0D681D88">
+<sourceConnName>CentOS_SHOP</sourceConnName>
+<sourceObjSchema>PRODUCTTBL</sourceObjSchema>
+<sourceObjName>COST</sourceObjName>
+<createdBy>ohyunju</createdBy>
+<createdTime>2024-03-21 02:19:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>076CDA7C-F194-BAC6-0A1C-0C96C192E573</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,7,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAKEDATE" id="E4595F56-DFE0-FBC1-B185-356152F39882">
+<sourceConnName>CentOS_SHOP</sourceConnName>
+<sourceObjSchema>PRODUCTTBL</sourceObjSchema>
+<sourceObjName>MAKEDATE</sourceObjName>
+<createdBy>ohyunju</createdBy>
+<createdTime>2024-03-21 02:19:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>85636F14-4A82-CB91-0222-1AB7F4838C5B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMPANY" id="0AF08F05-1525-7907-0D3D-7168544F7DE7">
+<sourceConnName>CentOS_SHOP</sourceConnName>
+<sourceObjSchema>PRODUCTTBL</sourceObjSchema>
+<sourceObjName>COMPANY</sourceObjName>
+<createdBy>ohyunju</createdBy>
+<createdTime>2024-03-21 02:19:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>53605DFE-77FF-3ADB-8D38-2350D38F7286</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AMOUNT" id="4932DBEF-CFDD-BC73-32E7-E1AE3477BA95">
+<sourceConnName>CentOS_SHOP</sourceConnName>
+<sourceObjSchema>PRODUCTTBL</sourceObjSchema>
+<sourceObjName>AMOUNT</sourceObjName>
+<createdBy>ohyunju</createdBy>
+<createdTime>2024-03-21 02:19:26 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>FA7CD068-C052-9BA6-59DE-8E5960AFAF4A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

@@ -5,4 +5,9 @@
 <ownerDesignName>model</ownerDesignName>
 <capitalNames>false</capitalNames>
 <designId>D6627996-E93F-9000-2245-137AD3B9212E</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="3192242F-7402-562F-A333-CBC50B49EAAD">
+<designStoragePath>C:\Users\bibi0\OneDrive\문서\Github\full\db</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
 </OSDM_Design>

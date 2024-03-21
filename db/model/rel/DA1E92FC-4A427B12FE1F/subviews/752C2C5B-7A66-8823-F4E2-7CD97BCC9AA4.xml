@@ -14,24 +14,25 @@
 <display>false</display>
 <notation>1</notation>
 <objectViews>
-<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="86921BD8-1D2E-32B7-013A-3EACB185F444" otype="Table" vid="7C9C6C40-B55D-1895-D74C-CEC6791B6A64">
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="1085A1EB-0A48-94B0-FCA7-257F8140C75A" otype="Table" vid="122EC7A8-9E34-003F-A5BC-2B1D50E3D437">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="95" y="56" width="275" height="223"/>
+<bounds x="91" y="124" width="232" height="93"/>
 </OView>
-<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="D6C031CB-DCBC-B4E3-A2F0-551A7FE24CC0" otype="Table" vid="E68621BE-CB3F-DB1D-1227-345D96417749">
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="1F2E27C6-3E10-42CB-179A-530C343CDCF5" otype="Table" vid="62C83107-3EA4-E195-9A31-387B30B87ECF">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="448" y="54" width="300" height="223"/>
+<bounds x="660" y="124" width="237" height="72"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVView" oid="73CE835E-46A5-F0C7-572F-B165D4148E2F" otype="View" vid="9BA7BEB7-F8C4-99D3-FE32-0EB591B9F754">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="91" y="387" width="237" height="74"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="78966512-C491-3598-C116-598A81362A5A" otype="Table" vid="7C1A87C2-ED8B-CEC2-134B-AE561EDBF0B0">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="91" y="265" width="198" height="102"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="F4CDC09F-7AC9-D857-DAD3-FC97E8F029B0" otype="Table" vid="A0FD7AF9-A1CF-4EED-D37B-361A1247F871">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="359" y="121" width="237" height="87"/>
 </OView>
 </objectViews>
-<connectors>
-<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="8AC7474A-21E3-87AD-03A2-34280D174A56" otype="FKIndexAssociation" vid_source="7C9C6C40-B55D-1895-D74C-CEC6791B6A64" vid_target="E68621BE-CB3F-DB1D-1227-345D96417749">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<backgroundColor>-16777216</backgroundColor>
-<lineWidth>1</lineWidth>
-<points>
-<point x="370" y="166"/>
-<point x="448" y="166"/>
-</points>
-</Connector>
-</connectors>
 </Diagram>
