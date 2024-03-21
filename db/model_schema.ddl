@@ -1,5 +1,5 @@
 -- 생성자 Oracle SQL Developer Data Modeler 23.1.0.087.0806
---   위치:        2024-03-21 10:51:06 KST
+--   위치:        2024-03-21 11:09:46 KST
 --   사이트:      Oracle Database 11g
 --   유형:      Oracle Database 11g
 
@@ -13,7 +13,7 @@ CREATE TABLE buytbl (
     idnum          NUMBER(8) NOT NULL,
     userid         CHAR(8) NOT NULL,
     prodname       NCHAR(8) NOT NULL,
-    groupname      NCHAR(4) NOT NULL,
+    groupname      NCHAR(4),
     price          NUMBER(8) NOT NULL,
     amount         NUMBER(3) NOT NULL,
     usertbl_userid CHAR(8) NOT NULL
@@ -26,10 +26,10 @@ CREATE TABLE usertbl (
     username  NVARCHAR2(10) NOT NULL,
     birthyear NUMBER(4) NOT NULL,
     addr      NCHAR(2) NOT NULL,
-    mobile1   CHAR(3) NOT NULL,
-    mobile2   CHAR(8) NOT NULL,
-    height    NUMBER(3) NOT NULL,
-    mdate     DATE NOT NULL
+    mobile1   CHAR(3),
+    mobile2   CHAR(8),
+    height    NUMBER(3),
+    mdate     DATE
 );
 
 ALTER TABLE usertbl ADD CONSTRAINT usertbl_pk PRIMARY KEY ( userid );
